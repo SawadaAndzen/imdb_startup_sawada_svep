@@ -40,6 +40,6 @@ a.show()
 # Шосте: актори 5 найнепопулярніших фільмів 2008 року.
 df = dataframe[dataframe["Year"] == 2008]
 df = df.sort_values(by="Rating")
-b = exp.line(df.tail(5), x="Actors", y="Rating", title="Актори 5 найнепопулярніших фільмів 2008 року.")
+b = exp.line(df.head(5), x="Actors", y="Rating", title="Актори 5 найнепопулярніших фільмів 2008 року.")
 b.update_traces(line_color='#a450d9', line_width=5)
 b.show()
