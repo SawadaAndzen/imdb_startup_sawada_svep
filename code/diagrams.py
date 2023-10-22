@@ -1,6 +1,4 @@
 from dataframe import*
-import pandas
-import math
 import plotly.express as exp
 
 # #перше: який жанр бiльш заробляе?
